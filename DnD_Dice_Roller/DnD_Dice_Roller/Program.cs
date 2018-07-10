@@ -63,6 +63,7 @@ namespace DnD_Dice_Roller
             Console.WriteLine(sumNumber + ": " + allNumbers);
 
             Console.ReadKey();
+            //Testing push stuff
         }
     }
 }
