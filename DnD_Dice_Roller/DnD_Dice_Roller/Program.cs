@@ -57,7 +57,14 @@ namespace DnD_Dice_Roller
 
             for (int i = 0; i < dieRolls.Count; i++)
             {
-                allNumbers += dieRolls[i] + ", ";
+                if(i == (dieRolls.Count - 1))
+                {
+					allNumbers += dieRolls[i] + "";
+                }
+                else
+                {
+                    allNumbers += dieRolls[i] + ", ";
+                }
             }
 
             Console.WriteLine(sumNumber + ": " + allNumbers);
